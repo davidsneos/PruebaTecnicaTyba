@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./app",
+    "paths": {
+      "Screens": ["UI/Screens"],
+      "Screens/*": ["UI/Screens/*"],
+
+      "Config": ["Config"],
+      "Config/*": ["Config/*"],
+
+      "Components": ["UI/Components"],
+      "Components/*": ["UI/Components/*"],
+
+      "Reducers": ["Data/Reducers"],
+      "Reducers/*": ["Data/Reducers/*"],
+
+      "Data": ["Data"],
+      "Data/*": ["Data/*"],
+
+      "Globals": ["Globals"],
+      "Globals/*": ["Globals/*"],
+
+      "Logic": ["Logic"],
+      "Logic/*": ["Logic/*"],
+
+    }
+  },
+  "exclude": ["node_modules", "**/node_modules/*"]
+}
