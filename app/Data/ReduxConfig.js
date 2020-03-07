@@ -42,6 +42,7 @@ const configureReduxStore = (rootReducer, rootSagaParam) => {
 /* ------------- Assemble The Reducers ------------- */
 export const reducers = combineReducers({
   user: require('Reducers/User/UserReducer').reducer,
+  nav: require('Config/Navigation/NavReducer').reducer,
 });
 
 const createReduxStore = () => {
